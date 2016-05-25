@@ -9,7 +9,8 @@ const {
     EditorState,
     RichUtils,
     DefaultDraftBlockRenderMap,
-    Decorator
+    Decorator,
+    convertFromRaw
 } = Draft;
 
 const {Map, List} = Immutable;
@@ -18,10 +19,27 @@ class PrismEditorExample extends React.Component {
     constructor(props) {
         super(props);
 
-        var decorator = new PrismDraftDecorator(Prism.languages.javascript);
+        var decorator = new PrismDraftDecorator();
+        var contentState = convertFromRaw({
+            entityMap: {},
+            blocks: [
+                {
+                    type: 'header-one',
+                    text: 'Demo for draftjs-prism'
+                },
+                {
+                    type: 'unstyled',
+                    text: 'Type some JavaScript below:'
+                },
+                {
+                    type: 'code-block',
+                    text: 'var message = "This is awesome!";'
+                }
+            ]
+        })
 
         this.state = {
-            editorState: EditorState.createEmpty(decorator),
+            editorState: EditorState.createWithContent(contentState, decorator),
         };
 
         this.focus = () => this.refs.editor.focus();
