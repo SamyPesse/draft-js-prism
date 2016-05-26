@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/SamyPesse/draftjs-prism#readme",
   "dependencies": {
+    "extend": "^3.0.0",
     "immutable": "*",
     "prismjs": "^1.5.0"
   },
