@@ -1,5 +1,5 @@
 {
-  "name": "draftjs-prism",
+  "name": "draft-js-prism",
   "version": "1.0.2",
   "description": "Code highlighting for DraftJS",
   "main": "./lib/index.js",
@@ -13,17 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamyPesse/draftjs-prism.git"
+    "url": "git+https://github.com/SamyPesse/draft-js-prism.git"
   },
   "keywords": [
-    "draftjs"
+    "draft-js"
   ],
   "author": "Samy Pesse <samypesse@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/SamyPesse/draftjs-prism/issues"
+    "url": "https://github.com/SamyPesse/draft-js-prism/issues"
   },
-  "homepage": "https://github.com/SamyPesse/draftjs-prism#readme",
+  "homepage": "https://github.com/SamyPesse/draft-js-prism#readme",
   "dependencies": {
     "extend": "^3.0.0",
     "immutable": "*",

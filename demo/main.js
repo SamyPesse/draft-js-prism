@@ -25,7 +25,7 @@ class PrismEditorExample extends React.Component {
             blocks: [
                 {
                     type: 'header-one',
-                    text: 'Demo for draftjs-prism'
+                    text: 'Demo for draft-js-prism'
                 },
                 {
                     type: 'unstyled',
