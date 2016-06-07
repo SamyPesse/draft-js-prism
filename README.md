@@ -2,7 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/draft-js-prism.svg)](http://badge.fury.io/js/draft-js-prism)
 
-`draft-js-prism` is a decorator for DraftJS to highlight code blocks using [Prism](https://github.com/PrismJS/prism).
+`draft-js-prism` is a decorator for DraftJS to highlight code blocks using [Prism](https://github.com/PrismJS/prism). It only decorates code blocks with syntax highlighting, if you're interested in providing a correct edition UX for code blocks, take a look at [draft-js-code](https://github.com/SamyPesse/draft-js-code).
 
 ![Prism](./preview.gif)
 
