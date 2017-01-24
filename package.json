@@ -27,7 +27,7 @@
   "dependencies": {
     "extend": "^3.0.0",
     "immutable": "*",
-    "prismjs": "^1.5.0"
+    "prismjs": "^1.6.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.6.0",
