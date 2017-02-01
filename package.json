@@ -27,6 +27,7 @@
   "dependencies": {
     "extend": "^3.0.0",
     "immutable": "*",
+    "js-htmlencode": "^0.2.0",
     "prismjs": "^1.6.0"
   },
   "devDependencies": {
