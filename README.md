@@ -10,7 +10,7 @@
 ### Installation
 
 ```
-$ npm install draft-js-prism
+$ npm install draft-js-prism prismjs
 ```
 
 ### Usage
@@ -18,12 +18,15 @@ $ npm install draft-js-prism
 ```js
 var Draft = require('draft-js');
 var PrismDecorator = require('draft-js-prism');
+var Prism = require('prismjs')
 
-var decorator = new PrismDecorator();
+var decorator = new PrismDecorator({
+  // Provide your own instance of PrismJS
+  prism: Prism,
+});
 var editorState = Draft.EditorState.createEmpty(decorator)
 ```
 
 You'll also need to include the css for one of the [Prism themes](https://github.com/PrismJS/prism/tree/gh-pages/themes).
 
 You can use this decorator combined with others by using [draft-js-multidecorators](https://github.com/SamyPesse/draft-js-multidecorators)
-
