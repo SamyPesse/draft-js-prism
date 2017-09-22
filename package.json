@@ -1,6 +1,6 @@
 {
   "name": "draft-js-prism",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Code highlighting for DraftJS",
   "main": "./lib/index.js",
   "scripts": {
